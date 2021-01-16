@@ -6,9 +6,7 @@ This repository is about my Final Project of my undergraduate course "Processame
 
 ## Source Video
 
-## Usage
-
-The repo is still under construction
+### UNDER CONSTRUCTION
 
 ## Techniques
 
@@ -21,8 +19,8 @@ For the project, it was applied the following techniques:
 
 ## Results
 
-# UNDER CONSTRUCTION
+## UNDER CONSTRUCTION
 
-## License
+### License
 
-MIT
+MIT License
