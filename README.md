@@ -27,6 +27,10 @@ For this project, it was applied the following techniques:
 - Deep Learning Model for road segmentation (trained on KITTI dataset)(Yet not added on the repo)
 ## Results (Under Construction)
 
+## (OBS: Most of the code is still documented in Portuguese! )
+
+## (OBS: Some features are still faulty and require fixes! )
+
 The results are under construction
 
 ### License
