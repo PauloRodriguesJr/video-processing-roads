@@ -1,24 +1,27 @@
 import numpy as np
 import cv2
-import matplotlib.pyplot as plt
+#import matplotlib.pyplot as plt
 
 
 def region_of_interest(img):
-    height = img.shape[0]
+    #height = img.shape[0]
     width = img.shape[1]
     mask = np.ones_like(img)*255
     poly = np.array([[  # Polígono para fazer a máscara (feito sob medida da)
         (0, 0),
         (width, 0),
-        (width, 210),
-        (0, 210), ]], np.int32)
+        (width, 250),
+        (0, 350), ]], np.int32)
     masked = cv2.fillPoly(mask, poly, 0)  # return none --> preenche a região
     # Ou exclusivo para ignorar oq estiver fora da mask
-    masked_image = cv2.bitwise_and(img, mask)
+    masked_image = cv2.bitwise_and(img, masked)
     return masked_image
 
 
-cap = cv2.VideoCapture("pista1.MP4")  # colocar o vídeo
+# cap = cv2.VideoCapture("pista1.MP4")  # colocar o vídeo
+cap = cv2.VideoCapture(
+    "C://Users//Paulo Rodrigues//Desktop//Self-Driving Cars Course//test2.mp4")  # colocar o vídeo
+
 while(cap.isOpened()):
     _, pista = cap.read()
 
