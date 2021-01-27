@@ -1,0 +1,16 @@
+
+.ipynb_checkpoints/
+
+__pycache__/
+
+Articles/
+
+aux-codes/
+
+dataset_teste/
+
+Imagens/
+
+pickle data/
+
+segmentationDNN/
