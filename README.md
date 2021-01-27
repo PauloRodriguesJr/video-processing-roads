@@ -8,7 +8,7 @@ This repository is about my Final Project of my undergraduate course "Processame
 
 The source video chosen for this project was about a "small-city" created to teach kids about traffic signs and norms. Most of the tests were made on a sample image of the video, as shown below:
 
-[Testing Image](pista.png)
+![Testing Image](pista.png)
 
 ## Objectives
 
