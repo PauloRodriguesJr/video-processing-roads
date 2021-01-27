@@ -6,20 +6,28 @@ This repository is about my Final Project of my undergraduate course "Processame
 
 ## Source Video
 
-### UNDER CONSTRUCTION
+The source video chosen for this project was about a "small-city" created to teach kids about traffic signs and norms. Most of the tests were made on a sample image of the video, as shown below:
 
-## Techniques
+[Testing Image](pista.png)
 
-For the project, it was applied the following techniques:
+## Objectives
+
+The project goals were:
+- Detect road lanes on videos
+- Apply road segmentation on videos
+- Get the road direction to achieve steering feedback input
+
+## Techniques applied
+
+For this project, it was applied the following techniques:
 
 - Image thresholding + HoughLines for lane detection
 - Color segmentation + Image Centroid for road segmentation
 - K-Means for road segmentation 
-- Deep Learning Model for road segmentation (trained on KITTI dataset)
+- Deep Learning Model for road segmentation (trained on KITTI dataset)(Yet not added on the repo)
+## Results (Under Construction)
 
-## Results
-
-## UNDER CONSTRUCTION
+The results are under construction
 
 ### License
 
