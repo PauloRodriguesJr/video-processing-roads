@@ -24,9 +24,8 @@ def region_of_interest(canny):
 
 # The problem is with my video?
 s = 1
-cap = cv2.VideoCapture(
-    "C://Users//Paulo Rodrigues//Desktop//Self-Driving Cars Course//test2.mp4")  # colocar o vídeo
-#cap = cv2.CaptureFromFile("pista1.MP4")
+cap = cv2.VideoCapture("pista2.mp4")  # colocar o vídeo
+
 while(cap.isOpened()):
     ret, pista = cap.read()  # Iniciando video
     print(f"frame {s} ")

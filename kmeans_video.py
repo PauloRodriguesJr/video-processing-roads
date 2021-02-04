@@ -1,6 +1,7 @@
 import numpy as np
 import cv2
 import matplotlib.pyplot as plt
+import os
 
 
 def region_of_interest(img):
@@ -19,8 +20,8 @@ def region_of_interest(img):
     return masked_image
 
 
-cap = cv2.VideoCapture(
-    "C://Users//Paulo Rodrigues//Desktop//Self-Driving Cars Course//test2.mp4")
+cap = cv2.VideoCapture("pista2.MP4")
+# "C://Users//Paulo Rodrigues//Desktop//Self-Driving Cars Course//test2.mp4")
 # print("passou")
 while(cap.isOpened()):
     # frame by frame of video
