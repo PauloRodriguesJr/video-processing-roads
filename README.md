@@ -1,3 +1,4 @@
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 #  Video Processing based Road/Lane Segmentation  
 
 ## Project Description
@@ -24,15 +25,23 @@ For this project, it was applied the following techniques:
 - Image thresholding + HoughLines for lane detection
 - Color segmentation + Image Centroid for road segmentation
 - K-Means for road segmentation 
-- Deep Learning Model for road segmentation (trained on KITTI dataset)(Yet not added on the repo)
+- Deep Learning Model for road segmentation trained on KITTI dataset (Still not added on the repo)
+
 ## Results (Under Construction)
 
-## (OBS: Most of the code is still documented in Portuguese! )
+### Canny edges lane detection
+<img src="docs/lane_tresholding.gif" width="600"/>
 
-## (OBS: Some features are still faulty and require fixes! )
+### K-Means segmentation (slow!)
+<img src="docs/kmeans_segmentation.gif" width="600"/>
 
-The results are under construction
+### Color Segmentation
+<img src="docs/color_segmentation.gif" width="600"/>
 
+### Future Work
+
+-  Improve the system to achieve visual feedback signa
+- Compare with CNN Segmentation 
 ### License
 
 MIT License
