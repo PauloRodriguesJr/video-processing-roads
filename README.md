@@ -30,17 +30,17 @@ For this project, it was applied the following techniques:
 ## Results (Under Construction)
 
 ### Canny edges lane detection
-<img src="docs/lane_tresholding.gif" width="600"/>
+<img src="docs/lane_tresholding.gif" width="300"/>
 
 ### K-Means segmentation (slow!)
 <img src="docs/kmeans_segmentation.gif" width="600"/>
 
 ### Color Segmentation
-<img src="docs/color_segmentation.gif" width="600"/>
+<img src="docs/color_segmentation.gif" width="300"/>
 
 ### Future Work
 
--  Improve the system to achieve visual feedback signa
+-  Improve the segmentation robustness
 - Compare with CNN Segmentation 
 ### License
 
