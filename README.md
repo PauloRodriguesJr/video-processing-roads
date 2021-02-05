@@ -44,4 +44,4 @@ For this project, it was applied the following techniques:
 - Compare with CNN Segmentation 
 ### License
 
-MIT License
+This project is released under the MIT License. Please review the [License file](LICENSE) for more details.
